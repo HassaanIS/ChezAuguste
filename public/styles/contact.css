@@ -1,0 +1,39 @@
+.footer h1{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+.footer{
+    padding-top: 5%;
+    border-top: 0.3vw solid rgb(218, 68, 68);
+    background-color: rgb(58, 42, 104);
+}
+
+.contact_info h2{
+    margin-bottom:10%;
+    font-size: 2.5vw;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: rgb(218, 68, 68);
+}
+.contact_info p{
+    font-size: 1.8vw;
+    text-align: left;
+    margin-top: 2%;
+    color: white;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left:10%;
+    padding-right:10%;
+}
+.mention{
+    margin-top: 5%;
+    font-size: 1.5vw;
+    color: white;
+    padding: 2%;
+}

@@ -1,0 +1,87 @@
+.location_title h1{
+    font-family: 'Merriweather', serif;
+    color: rgb(58, 42, 104);
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 3vw;     
+}
+.prev_img img{
+width: 100%;
+height: 100%;
+border-right: 0.2vw solid rgb(58, 42, 104);
+}
+.prev_text{
+padding: 2%;
+}
+.location_title h2{
+color: rgb(58, 42, 104);
+font-size: 2vw;
+margin-left: 5%;    
+}
+
+.location_prev h1{
+color: rgb(58, 42, 104);
+font-size: 1.8vw;
+}
+.location_prev h3{
+color: rgb(58, 42, 104);
+font-size: 1.2vw;
+margin-top: 1%;
+}
+.location_prev h4{
+color: #82b74b;
+font-size: 1.2vw;
+margin-top: 2%;
+padding-bottom: 2%;
+border-bottom: 0.2vw solid rgb(58, 42, 104);
+width: 60%;
+}
+.location_prev p{
+width: 80%;
+font-size: 1.2vw;
+margin-top: 1%;
+}
+.location_prev{
+display: flex;
+flex-direction: row;
+border:0.3vw solid rgb(58, 42, 104);
+background-color: rgb(240,240,240);
+margin:5%;
+}
+.prev_price{
+padding: 5%;
+display: flex;
+flex-direction: column;
+}
+.prev_price h1{
+margin-bottom: 50%;
+color: rgb(58, 42, 104);
+font-size: 2vw;
+font-family: 'Merriweather', serif;
+}
+.chambre_link{
+color: white;
+font-size: 2vw;
+margin-top: 10%;
+background-color: rgb(218, 68, 68);
+padding: 1.3%;
+border-radius: 0.5vw;
+text-align: center;
+font-family: 'Merriweather', serif;
+}
+.chambre_link:hover{
+    color: white;
+    background-color: rgba(218, 109, 109, 0.822);
+}
+.ville_desc{
+background-color: rgba(58, 42, 104, 0.8);
+padding: 2%;
+}
+.ville_desc p{
+width: 90%;
+color: white;
+font-size: 1.2vw;
+}
+.preview{
+padding-bottom: 10%;
+}
