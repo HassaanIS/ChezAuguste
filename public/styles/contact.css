@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 3vw;
     font-family: 'Merriweather', serif;
-    color: white;
+    color:white;
 }
 .footer{
     padding-top: 5%;
@@ -12,7 +12,7 @@
 
 .contact_info h2{
     margin-bottom:10%;
-    font-size: 2.5vw;
+    font-size: 3vw;
     text-align: center;
     font-family: 'Merriweather', serif;
     color: rgb(218, 68, 68);
@@ -34,6 +34,16 @@
 .mention{
     margin-top: 5%;
     font-size: 1.5vw;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 2%;
 }
+
+@media screen and (max-width: 600px) {
+    .info {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact_info p{
+        text-align: center;
+    }
+  }

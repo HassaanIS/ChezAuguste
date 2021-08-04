@@ -10,20 +10,10 @@ const Location = () => (
     <Nav></Nav>
     <div className="preview">
 
-    <div className="ville_desc">
-        <p>Quimper est une commune française de la région Bretagne située dans le nord-ouest de la France. La ville est le chef-lieu du département du Finistère, le siège du Conseil départemental, ainsi que des deux cantons qui la composent. Elle est également la capitale traditionnelle de la Cornouaille, du Pays Glazik et du Pays de Cornouaille qui compte 331 300 habitants en 2009, le siège de l'intercommunalité de Quimper Bretagne occidentale qui compte 100 187 habitants en 2014, le siège de l'arrondissement de Quimper et enfin le siège du diocèse de Quimper et Léon. Ses habitants sont appelés les Quimpérois.
-
-            Autrefois très réduit, son territoire communal a été très agrandi à compter du 1er janvier 1960 par l'annexion des trois communes limitrophes de Kerfeunteun (3 216 hectares), Ergué-Armel (3 356 ha) et Penhars (1 502 ha). La commune de Quimper, avant 1960, couvrait 192 hectares, ce qui en faisait le moins vaste chef-lieu de département français. Avec 63 513 habitants en 2014, elle est la 80e commune de France, la 3e de la région Bretagne (après Rennes et Brest) et la 2e du Finistère au regard de la population2. Son unité urbaine est de 79 804 habitants en 20143 et son aire urbaine est de 126 730 habitants en 20144 soit la 2e aire urbaine du département après celle de Brest. La ville est traversée par quatre cours d'eau : l'Odet et ses trois principaux affluents, le Steïr, le Frout et le Jet.
-
-            La ville est classée ville d'art et d'histoire5, elle a aussi obtenu deux autres récompenses, celle de l'obtention de quatre fleurs au concours des villes et villages fleuris.
-
-            Selon des études, Quimper se classait en 2e position des villes françaises où il faisait bon vivre en 20178, 13e commune la moins pauvre de France en 20129 et 1re agglomération comprise entre 70 000 et 100 000 habitants où il fait bon d'entreprendre en 201610.</p>
-    </div>
-
 
     <div className='location_title'>
         <h1>Nos logements :</h1>
-        <h2>35 logements disponibles </h2>
+        <h2>3 logements disponibles </h2>
     </div>
     <div className="location_prev">
 

@@ -7,6 +7,28 @@ const Accueil = () => (
 <div>
 <Nav></Nav>
 <div className="accueil">
+    <div className='information_accueil'>
+        <h1>Bienvenue</h1>
+        <p>Auguste, le perroquet, vous accueillera dans sa nouvelle maison. Nous faisons les rénovations en ce moment, les photos suivront à chaque étape accompli.<br></br>
+        Location normale à partir de novembre, octobre possible à d’autres conditions.<br></br><br></br>
+        Votre chambre sera une des trois chambres du premier etage, avec vue sur le jardin ou vue sur la terrasse.<br></br>
+        Salle de bain et cuisine commune, jardin et terrasse accessibles à tous les résidents.<br></br><br></br>
+        Au rez-de-chaussée se trouve le bureau d’une association d’artistes, qui fournit les oeuvres d’art, qui décorent la maison ainsi que le wifi.</p>
+    </div>
+   
+
+        <div className="fonctions">
+        <h1>Comment ça marche ?</h1>
+        <p>Nous proposons plusieurs lieux d'hébergement dans le cadre d'une location.<br></br>
+            Vous pourrez vous informez sur les différentes options de locations et en apprendre plus sur nos offres.<br></br>
+            Consultez notre page de location et informez vous sur l'adresse, la surface ou même le prix de nos biens immobiliers.<br></br><br></br>
+            Vous pouvez nous contacter avec les différents numéros de téléphones et e-mails mis à votre disposition
+            et nous laisser vos avis sur nos services si besoin dans la section blog.<br></br><br></br>
+            Nous avons mis à votre disposition une page de FAQ afin de pouvoir répondre aux questions les plus fréquentes
+            et vous aider le plus efficacement possible.
+        </p>
+    </div>
+
     <div className="home">
         <h1>Nos services : </h1>
             <div className="sections">
@@ -32,18 +54,6 @@ const Accueil = () => (
             </div> 
     </div>
 
-        <div className="fonctions">
-        <h1>Comment ça marche ?</h1>
-        <p>Nous proposons plusieurs lieux d'hébergement dans le cadre d'une location.<br></br>
-            Vous pourrez vous informez sur les différentes options de locations et en apprendre plus sur nos offres.<br></br>
-            Consultez notre page de location et informez vous sur l'adresse, la surface ou même le prix de nos biens immobiliers.<br></br><br></br>
-            Vous pouvez nous contacter avec les différents numéros de téléphones et e-mails mis à votre disposition
-            et nous laisser vos avis sur nos services si besoin dans la section blog.<br></br><br></br>
-            Nous avons mis à votre disposition une page de FAQ afin de pouvoir répondre aux questions les plus fréquentes
-            et vous aider le plus efficacement possible.
-        </p>
-    </div>
-
     <div className="locations">
         <h1>Nos Résidences : </h1>
             <div className="locations_text">
@@ -57,7 +67,7 @@ const Accueil = () => (
                         <h3>Description :</h3>
                         <p>Omitto iuris dictionem in libera civitate contra leges senatusque consulta; caedes relinquo; libidines praetereo, quar
                             um acerbissimum extat indicium et ad insignem memoriam turpitudinis et paene ad iustum odium imperii nostri, quod constat nobilissimas vir
-                            gines se in puteos abiecisse et morte voluntaria necessariam turpitudinem depulisse. Nec haec idcirco omitto, quod non gravissima sint, sed quia nunc sine teste dico.
+                            gines se in puteos abiecisse et morte voluntaria necessariam turpitudinem depulisse.
                         </p>
                     </div>
             </div>

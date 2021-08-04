@@ -33,10 +33,11 @@ const Chambre_verte = () => (
                         ipiuntur saepe qui simulatione amicitiae coluntur et observantur temporis 
                         causa, in amicitia autem nihil fictum est, nihil simulatum et, quidquid es
                         t, id est verum et voluntarium.</p>
+                        <h2>Contact : 0762546362</h2>
             </div>
             <div className="description_details">
-                <h1>Prix : 600e/mois</h1>
-                <h3>Surface : 10m</h3>
+                <h1>600€/mois</h1>
+                <h1>10 m²</h1>
                 <Services></Services>
 
                 </div>

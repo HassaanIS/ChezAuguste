@@ -6,7 +6,7 @@ import '../public/styles/Chambre_verte.css';
 
 const Services = () => (
 <div>
-<h1>Services : </h1>
+<h3>Services : </h3>
 <p>Les premiers mois, vous partagerez la cuisine au rez-de-chaussée et la salle de bain à votre étage avec les autres résidents, deux autres étudiants et votre hôte, Helga. 
 
 En 2022, la cuisine sera dédiée aux étudiants et ensuite à salle de bain.
@@ -23,7 +23,7 @@ Terrasse : elle se trouve devant la maison, côté impasse. Vous pouvez prendre 
 
 Jardin : accès via la garage, descendre une etage. Vous pouvez en profiter pour des activités calmes (étudier, se bronzer, gymnastique, jardinage).
 </p>
-<h1>Régles de la maison :</h1>
+<h3>Régles de la maison :</h3>
 <p>chacun(e) nettoie / range la cuisine, la salle bain et autres lieux communs immédiatement après usage. 
 
 Pas de bruit entre 22h et 8h 

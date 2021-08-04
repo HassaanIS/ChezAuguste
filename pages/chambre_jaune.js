@@ -26,6 +26,7 @@ const Chambre_jaune = () => (
                 <p>Hanc regionem praestitutis celebritati diebus invadere parans dux ante edictus per solitudines Aboraeque amnis herbidas ripas, suorum indicio proditus, qui admissi flagitii metu
                      exagitati ad praesidia descivere Romana. absque ullo egressus effectu
                       deinde tabescebat immobilis.</p>
+                      <h2>Contact : 0762546362</h2>
             </div>
             <div className="description_details">
                 <h1>Prix : 450€/mois</h1>

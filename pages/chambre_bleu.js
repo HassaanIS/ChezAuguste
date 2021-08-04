@@ -27,6 +27,7 @@ const Chambre_bleu = () => (
                     insimulatus fovisse partes hostiles, iniecto onere catenarum in modum beluae trahebatur et inimico
                     urgente vel nullo, quasi sufficiente hoc solo, quod nominatus 
                     esset aut delatus aut postulatus, capite vel multatione bonorum aut insulari solitudine damnabatur.</p>
+                    <h2>Contact : 0762546362</h2>
             </div>
             <div className="description_details">
                 <h1>Prix : 600€/mois</h1>

@@ -2,7 +2,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
-    border-bottom: 0.2vw solid rgb(58, 42, 104);
+    border-bottom: 0.2vw solid rgb(218, 68, 68);
 }
 .images img{
     width: 70vw;
@@ -33,14 +33,18 @@
     font-size: 1.2vw;
     margin-left: 2%;
 }
-.description_info h3, .description_details h3{
+.description_info h3{
     font-size: 1.5vw;
     margin-left: 2%;
     margin-top: 1%;
+    font-family: 'Merriweather', serif;
+    color: rgb(58, 42, 104);
 }
 .description_info h2, .description_details h2{
     font-size: 2vw;
     margin-top: 2%;
+    color: rgb(58, 42, 104);
+    font-family: 'Merriweather', serif;
 }
 .description_info p{
     margin-top: 2%;
@@ -51,12 +55,25 @@
     margin-top: 2%;
     font-size: 1vw;
     width: 100%;
-    color: rgb(58, 42, 104);
+    color: rgb(0, 0, 0);
 }
-.description_info h1,.description_details h1{
+.description_info h1{
     font-size: 2vw;
     margin-top: 2%;
     color: rgb(218, 68, 68);
+    font-family: 'Merriweather', serif;
+}
+.description_details h1{
+    font-size: 2vw;
+    margin-top: 2%;
+    color: rgb(58, 42, 104);
+    font-family: 'Merriweather', serif;
+}
+.description_details h3{
+    font-size: 2vw;
+    margin-top: 2%;
+    color: rgb(218, 68, 68);
+    font-family: 'Merriweather', serif;
 }
 .description{
     display: flex;
@@ -66,7 +83,7 @@
 }
 .description_details{
     margin-right: 10%;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(240, 240, 240);
     width: 100%;
     padding:2%;
     border-radius: 0.5vw;

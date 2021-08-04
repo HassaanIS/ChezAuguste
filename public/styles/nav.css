@@ -1,30 +1,33 @@
 
 .nav{
-    background-color: rgb(240, 240, 240);
+    background-color:rgb(58, 42, 104);
     display: flex;
     flex-direction: row;
     padding: 2%;
     border-bottom: 0.2vw solid rgb(218, 68, 68);
   }
 .nav h1{
+    margin-left: 2%;
     font-size: 2vw;
-    margin-top: 0.8%;
+    margin-top: 1%;
+    color: white;
+    font-family: 'Merriweather', serif;
   }
 .connect_button{
     font-family: 'Merriweather', serif;
     font-size: 1.5vw;
-    background-color: rgb(58, 42, 104);
-    padding: 0.5%;
-    border-radius: 0.2vw;
-    margin-top: 0.3%;
+    background-color:rgb(218, 68, 68);
+    border-radius: 0.3vw;
     margin-left: 30%;
+    margin-top: 1.5%;
+    height: 100%;
   }
 .connect_button{
-  text-decoration: none;
-  color: white;
+color: white;
   }
 .connect_button:hover{
-    background-color: rgba(84, 76, 110, 0.829);
+    background-color: rgba(218, 109, 109, 0.822);
+    color: white;
   }
 ul {
     display: flex;
@@ -32,18 +35,23 @@ ul {
     margin-left: 10%;
   }
 li {
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 4%;
+    margin-left: 15%;
   }
 li a{
-  border-left: 0.2vw solid rgb(240, 80, 52);
-  color: rgb(58, 42, 104);
-  font-size: 1.5vw;
+  color: white;
+  font-size: 2vw;
   padding-left: 5%;
+  font-family: 'Merriweather', serif;
 }
 li a:hover{
-    color: rgb(218, 68, 68)
+    color: rgb(204, 204, 204);
   }
   
   
-  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .connect_button, .nav h1 {
+    margin-top: 4%;
+  }
+}
