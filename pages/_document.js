@@ -19,9 +19,11 @@ class DefaultDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
           />
-              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin></link>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"/>
-          <link rel="stylesheet" href="/static/style.css" />
+              <link rel="preconnect" href="https://fonts.gstatic.com"  crossOrigin="anonymous"
+          referrerPolicy="no-referrer"
+          rel="stylesheet"></link>
+              <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"/>
+          <link rel="stylesheet" href="/static/style.css"  crossOrigin="anonymous"/>
         </Head>
         <body className="custom_class">
           <Main />
